@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart | Course Selling Website</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+</head>
+<body>
+
+<!-- Navbar -->
+<section id="header">
+  <a href="index.html"><img src="images/logo.png" height="100px" class="logo" alt=""></a>
+  <div>
+    <ul id="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="course.html">Courses</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a class="active" href="cart.html"><img src="images/cart.png" alt="cart" height="40px" width="40px"></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- Hero -->
+<section id="hero" class="page-hero">
+  <h1>Your Cart</h1>
+  <h4>Review and manage the courses you've selected.</h4>
+  <p></p>
+</section>
+
+<!-- Cart Table -->
+<section id="cart" class="section-p1">
+  <table width="100%">
+    <thead>
+      <tr>
+        <th>Remove</th>
+        <th>Course</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+        <td>Web Development Bootcamp</td>
+        <td>$79.00</td>
+        <td><input type="number" value="1" min="1"/></td>
+        <td>$79.00</td>
+      </tr>
+      <tr>
+        <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+        <td>UI/UX Design Masterclass</td>
+        <td>$79.00</td>
+        <td><input type="number" value="1" min="1"/></td>
+        <td>$79.00</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+</section>
+
+<!-- Cart Summary -->
+<section id="cart-summary" class="section-p1">
+  <div class="total-box">
+    <h3>Cart Total</h3>
+    <table>
+      <tr>
+        <td>Subtotal</td>
+        <td>$158.00</td>
+      </tr>
+      <tr>
+        <td>Tax</td>
+        <td>$0.00</td>
+      </tr>
+      <tr>
+        <td><strong>Total</strong></td>
+        <td><strong>$158.00</strong></td>
+      </tr>
+    </table>
+    <button class="normal">Proceed to Checkout</button>
+  </div>
+</section>
+
+<!-- Newsletter -->
+<section id="newsletter" class="section-p1 section-m1">
+  <div class="newstext">
+    <h4>Sign Up For Newsletter</h4>
+    <p>Get E-mail updates about our latest courses and <span>special offers.</span></p>
+  </div>
+  <div class="form">
+    <input type="text" placeholder="Your E-mail Address" />
+    <button class="normal">Sign Up</button>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="section-p1">
+  <!-- Reuse the same footer as index.html -->
+  <!-- ... identical footer content ... -->
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
